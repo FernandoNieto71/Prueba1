@@ -1,0 +1,148 @@
+
+.anchoimg{
+width:30px;	
+}
+
+.anchoimgd{
+width:30px;
+border:solid 2px #39b6fa;	
+}
+
+.bordeusutot{
+margin: 0 auto;
+padding: 0;
+width:340;
+height:40;
+}
+
+.bordeusutot2{
+margin: 0 auto;
+padding: 0;
+border-bottom :1px dashed #39b6fa;
+border-left:1px dashed #39b6fa;
+border-right:1px dashed #39b6fa;
+}
+
+
+p{
+text-align: center;
+}
+
+
+.tamanoTextbox 
+{
+	width: 270px;
+	height: 25px;
+	border: 0;
+}
+
+.botonEnvio {
+	background-image: src="iconos/derecha.png"; width: 45px; height: 40px; border-width: 0
+}
+
+.bordecelda{
+	border: 2px dashed #39b6fa;
+	width:280px;	
+}
+
+
+.bordecelda5{
+	border-radius: 5px;
+	border: 1px dashed #39b6fa;
+	width:80px;	
+	background-color: ff0000;
+}
+
+.ing-centro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {text-align: center}
+
+.redondeado {
+  border-radius: 5px;
+  background-color: #def;
+  width: 90;
+  height: 25;
+  margin-left: 85%;
+  text-align: center;
+  color: #F90623;
+}
+
+.redondeado1 {
+  border-radius: 5px;
+  background-color: #dfef;
+  width: 140;
+  height: 35;
+  margin-left: 80%;
+  text-align: center;
+  color: #F006f3;
+}
+
+.recuadro1 {
+  border-radius: 5px;
+  background-color: #ffffff59;
+  width: 750;
+  height: 100;
+  text-align: center;
+  color: #1A1C92;
+  margin: 0 auto; 
+  vertical-align: middle;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.recuadro2 {
+  border-radius: 0px;
+  background-color: #ffffff80;
+  width: 900;
+  height: 560;
+  color: #A50B3A;
+  margin: 0 auto; 
+  font-family: "Segoe UI";
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+.parrafizq{
+	text-align: left;
+}
+
+.colorconf{
+	background-color: #ffccdb;
+}
+
+.centrotab{
+	margin: 0 auto;
+}
+
+.primtabconf{
+width: 100;
+height: 40;
+}
+
+.tamail{
+	width: 400;
+}
+
+.tamletra{
+	font-size: 25px;
+	font-family: cursive;
+}
+
+#cenrecup{
+	width: 400px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+

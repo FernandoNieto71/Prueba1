@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>Ingreso de datos personales</title>
+<link rel="stylesheet" href="css/mi_estilo.css">
+
+</head>
+<body class="colorconf">
+<a href="index.html"><input type="text" class="redondeado" value="Volver a Inicio"></a>
+<h1>Ingreso sus datos personales</h1>
+<form action="ingreso.html" method="get">
+
+<br>
+<br>
+<table class="centrotab">
+<tr class="primtabconf">
+<th>Datos personales</th>
+<td colspan = 1></td>
+</tr>
+<tr class="primtabconf">
+<td>Nombre :<input name="nombre" type="text"></td>
+<td>Apellido: <input name="apellido" type="text"></td>
+</tr>
+<tr class="primtabconf">
+<td>Sexo:<input name="sexo" type="radio" value="F"> Femenino  <input name="sexo" type="radio" value="M"> Masculino</td>
+<td>Estado Civil:
+<select name="ecivil">
+<option value="-1">Seleccione una opcion</option>
+<option value="1">Soltero</option>
+<option value="2">Casado</option>
+<option value="3">Divorciado</option>
+<option value="4">Conviviente</option>
+<option value="5">Viudo</option>
+</select>
+</td>
+</tr>
+<tr class="primtabconf">
+<td>
+DNI: 
+<input name="dni" type="text">
+</td>
+<td>
+Naionalidad:
+<select name="nacionalidad">
+<option value="-1">Seleccione una opcion</option>
+<option value="1">Argentina</option>
+<option value="2">Brazil</option>
+<option value="3">Chile</option>
+<option value="4">Uruguay</option>
+<option value="5">Paraguay</option>
+<option value="6">Bolivia</option>
+<option value="7">Otros</option>
+</select>
+</td>
+</tr>
+<tr class="primtabconf">
+<td>
+Domicilio :
+<input name="domicilio" type="text">
+</td>
+<td>
+Ciudad: 
+<input name="ciudad" type="text">
+</td>
+</tr>
+<tr class="primtabconf">
+<td>
+Provincia :
+<input name="provincia" type="text">
+</td>
+<td>
+Codigo Postal: 
+<input name="cp" type="text">
+</td>
+</tr>
+</table>
+<br>
+<br>
+
+<table class="centrotab">
+<tr class="primtabconf">
+<th colspan = 5>Informaci&oacute;n Profesional</th>
+</tr>
+<tr class="primtabconf">
+<th colspan = 2>Nivel acad&eacute;mico:</th>
+<td></td>
+<th colspan = 2>Experiencia laboral</th>
+</tr>
+<tr class="primtabconf">
+<td>
+<select name="academico">
+<option value="-1">Seleccione una opcion</option>
+<option value="1">Primario</option>
+<option value="2">Secundario</option>
+<option value="3">Secundario incompleto</option>
+<option value="4">Terciario</option>
+<option value="5">Terciario Incompleto</option>
+<option value="6">Universitario</option>
+<option value="7">Universitario Incompleto</option>
+</select>
+</td>
+<td>
+Instituci&oacute;n :
+<input name="institucion" type="text">
+</td>
+<td>
+</td>
+<td>
+Instituci&oacute;n donde trabaja:
+<input name="trabajo" type="text">
+</td>
+<td>
+Trabaja actualmente:
+<input name="trabaja" type="radio" value="S"> Si  <input name="trabaja" type="radio" value="N"> No
+</td>
+</tr>
+
+<tr class="primtabconf">
+<td>
+T&iacute;tulo: 
+<input name="titulo" type="text">
+</td>
+<td>
+Cursa actualmente:
+<input name="cursa" type="radio" value="S"> Si  <input name="cursa" type="radio" value="N"> No
+</td>
+<td></td>
+<td>
+Puesto que desempe&ntilde;a:
+<select name="puesto">
+<option value="-1">Seleccione una opcion</option>
+<option value="1">maestransa</option>
+<option value="2">mantenimiento</option>
+<option value="3">administrativo</option>
+<option value="4">recepcionista</option>
+<option value="5">chofer</option>
+<option value="6">inform&aacute;tico</option>
+<option value="7">jefe</option>
+<option value="8">gerente</option>
+</select>
+</td>
+<td>
+Tareas que realiza:
+<input name="tareas" type="text">
+</td>
+</tr>
+
+<tr class="primtabconf">
+<th>
+Referencias:
+</th>
+<td colspan = 4>
+<input name="referencia" type="text" size="100">
+</td>
+</tr>
+</table>
+<br>
+<br>
+<table class="centrotab">
+<tr>
+<th colspan = 3>Declaraci&oacute;n Jurada</th>
+<td colspan =2>
+<input name="acepto" type="checkbox" id="decla" value="1"> Acepto que los datos ingresados son verdaderos</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<input name="" type="reset">
+</td>
+<td colspan = 2></td>
+<td>
+<input type="submit" value="Enviar" name="submit">
+</td>
+</tr>
+</table>
+
+
+
+</form>
+
+
+
+</body>
+
+</html>
